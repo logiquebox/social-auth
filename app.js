@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Index page ready');
+  res.send('This was after the change');
 });
 
 const port = process.env.PORT || 5000;
